@@ -10,7 +10,7 @@ Some info
 
 ---
 # C
-[Link text Here](/content/posts/first.md)
+[Link text Here](posts/first/index.html)
 
 Some info  
 ![snow trees](https://www.tiobe.com/wp-content/themes/tiobe/tiobe-index/images/C.png)

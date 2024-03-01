@@ -9,6 +9,13 @@
     <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>https://example.org/posts/first-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/first-copy/</guid>
+      <description>Programming languages Python Some info&#xA;C Link text Here&#xA;Some info&#xA;C++ Some info&#xA;Java Some info&#xA;C# Some info&#xA;JavaScript Some info&#xA;SQL Some info&#xA;Go Some info&#xA;Visual Basic Some info&#xA;PHP Some info&#xA;Fortran Some info&#xA;Delphi/Object Pascal Some info&#xA;MATLAB Some info&#xA;Assembly language Some info&#xA;Scratch Some info&#xA;Swift Some info&#xA;Kotlin Some info&#xA;Rust Some info&#xA;COBOL Some info&#xA;Ruby Some info</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://example.org/posts/first/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.org/posts/first/</guid>
