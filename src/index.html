@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./output.css">
 </head>
-<body>
+<!-- <body class="bg-indigo-200"> -->
+  <body>
+<div class="flex flex-row">
+  <div class="box-border h-32 w-32 p-4 border-4 m-2">1</div>
+  <div class="box-border h-32 w-32 p-4 border-4 m-2">2</div>
+  <div class="box-border h-32 w-32 p-4 border-4 m-2">3</div>
+  <div class="box-border h-32 w-32 p-4 border-4 m-2">4</div>
+</div>
+<div class="flex flex-col">
+  <div class="box-border h-32 w-32 p-4 border-4 m-2">1</div>
+  <div class="box-border h-32 w-32 p-4 border-4 m-2">2</div>
+  <div class="box-border h-32 w-32 p-4 border-4 m-2">3</div>
+  <div class="box-border h-32 w-32 p-4 border-4 m-2">4</div>
+</div>
+<div class="flex flex-auto">
+  <div class="box-border h-32 w-32 p-4 border-4 m-2">1</div>
+  <div class="box-border h-32 w-32 p-4 border-4 m-2">2</div>
+  <div class="box-border h-32 w-32 p-4 border-4 m-2">3</div>
+  <div class="box-border h-32 w-32 p-4 border-4 m-2">4</div>
+</div>
 
 <h1>My First Heading</h1>
-<p>My first paragraph.</p>
-<p>My first <b>paragraph.</b></p>
+<h1 class="text-3xl font-bold underline">
+  Hello world!
+</h1>
+<p class="text-red-600">My first paragraph.</p>
+<p class="text-blue-600/100">The quick brown fox...</p>
+<p class="text-red-600">My first <b>paragraph.</b></p>
 
-<table>
-    <tr>
+<table class="border-separate border-spacing-5 border-collapse border border-slate-400 ">
+    <tr class="border border-slate-400 bg-indigo-200">
       <th>Company</th>
       <th>Contact</th> 
       <th>Country</th>
     </tr>
-    <tr>
+    <tr class="border border-slate-400">
       <td>Alfreds Futterkiste</td>
       <td>Maria Anders</td> 
       <td>Germany</td>
     </tr>
-    <tr>
+    <tr class="border border-slate-400 border-spacing-5">
       <td>Centro comercial Moctezuma</td>
       <td>Francisco Chang</td> 
       <td>Mexico</td>
     </tr>
 </table>
+
+<div class="w-32 h-32 p-4 rounded-xl m-4 shadow-[#106ae0] shadow-lg animate-ping">Something</div>
 
   <map name="infographic">
     <area
@@ -66,7 +91,7 @@
     <input type="text" id="fname" name="fname"><br><br>
     <label for="lname">Last name:</label>
     <input type="text" id="lname" name="lname"><br><br>
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" class="shadow-2xl bg-indigo-500 border-solid border-2 border-indigo-600 hover:border-dotted">
   </form>
   
   <iframe width="420" height="315"
@@ -79,7 +104,7 @@
     Something small enough to escape casual notice.
   </details>
 
-  <footer>
+  <footer class="bg-indigo-500">
     <p>Author: xd dx</p>
     <p><a href="mailto:hege@example.com">hege@example.com</a></p>
   </footer>
